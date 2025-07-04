@@ -5,12 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![CI/CD](https://github.com/yourusername/Knapsack-Solver/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/yourusername/Knapsack-Solver/actions)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 *A sophisticated GUI application for solving **0/1 Knapsack** and **Fractional Knapsack** problems using dynamic programming and greedy algorithms.*
 
-[Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing) • [Documentation](#-documentation)
+[Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing) • [Features](#-features)
 
 </div>
 
@@ -46,23 +45,12 @@ Knapsack-Solver/
 └── README.md
 ```
 
-## 🎬 Demo
-
-<!-- Add a GIF or screenshot here when available -->
-<div align="center">
-  <img src="docs/images/demo.png" alt="Knapsack Solver Demo" width="800"/>
-  <br>
-  <em>Professional GUI interface showing knapsack problem solving in action</em>
-</div>
-
-> **Note**: Demo images will be added in future releases. The application features a modern dark-themed interface with real-time results display.
-
 ## 🚀 Quick Start
 
-### Option 1: Direct Download and Run
+### Direct Download and Run
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Knapsack-Solver.git
+git clone https://github.com/Lordiod/Knapsack-Solver.git
 cd Knapsack-Solver
 
 # Install dependencies
@@ -70,17 +58,6 @@ pip install -r requirements.txt
 
 # Run the application
 python main.py
-```
-
-### Option 2: Install as Package
-```bash
-# Install from source
-pip install git+https://github.com/yourusername/Knapsack-Solver.git
-
-# Or install in development mode
-git clone https://github.com/yourusername/Knapsack-Solver.git
-cd Knapsack-Solver
-pip install -e .
 ```
 
 ## 📋 Installation
@@ -93,7 +70,7 @@ pip install -e .
 
 1. **Clone or Download**:
    ```bash
-   git clone https://github.com/yourusername/Knapsack-Solver.git
+   git clone https://github.com/Lordiod/Knapsack-Solver.git
    cd Knapsack-Solver
    ```
 
@@ -117,12 +94,7 @@ pip install -e .
    ```bash
    python main.py
    ```
-```
 
-### Alternative: Running the Original Version
-```bash
-python knapsack_original.py
-```
 
 ## 📖 Usage
 
@@ -167,15 +139,6 @@ python knapsack_original.py
 - Maximum Value: 240.00
 - Items taken: Item 3 (100%), Item 2 (100%), Item 1 (0%)
 
-## 🛠️ Technical Details
-
-### Project Structure
-```
-Knapsack-Solver/
-├── knapsack.py          # Main application file
-├── README.md           # Project documentation
-```
-
 ## 🏗️ Architecture
 
 ### Modular Design
@@ -201,14 +164,6 @@ The application follows a clean, modular architecture:
 - ✅ **Reusability**: Algorithms can be used without GUI
 - ✅ **Scalability**: Easy to extend with new features
 
-### Features Implemented
-- ✅ Professional error handling
-- ✅ Type hints for better code documentation
-- ✅ Modular class-based architecture
-- ✅ Comprehensive input validation
-- ✅ Detailed result formatting
-- ✅ Modern UI with CustomTkinter
-
 ## 🎨 UI Features
 
 - **Dark Theme**: Professional appearance
@@ -219,24 +174,19 @@ The application follows a clean, modular architecture:
 
 ## 🧪 Testing
 
-The application includes built-in example data for testing:
-- Capacity: 50
-- Weights: [10, 20, 30]  
-- Values: [60, 100, 120]
-
-## 🧪 Testing
-
 Run the test suite to verify everything works correctly:
 
 ```bash
-# Run module tests
-python test_modules.py
-
 # Test individual components
 python -c "from models import KnapsackSolver; print('✅ Models working')"
 python -c "from utils import InputValidator; print('✅ Utils working')"
 python -c "from gui import KnapsackGUI; print('✅ GUI working')"
 ```
+
+The application includes built-in example data for testing:
+- Capacity: 50
+- Weights: [10, 20, 30]  
+- Values: [60, 100, 120]
 
 ## 🐛 Troubleshooting
 
@@ -256,13 +206,6 @@ sudo apt-get install python3-tk
 **Performance issues with large datasets**
 - The application is optimized for educational use
 - For very large datasets (>1000 items), consider using the algorithms programmatically
-
-## 📚 Documentation
-
-- [Algorithm Explanation](docs/algorithms.md) *(Coming Soon)*
-- [API Reference](docs/api.md) *(Coming Soon)*
-- [Contributing Guide](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
 
 ## 🏆 Features Roadmap
 
@@ -287,30 +230,11 @@ sudo apt-get install python3-tk
 
 We welcome contributions! Here's how you can help:
 
-1. **🐛 Report Bugs**: [Create an issue](https://github.com/yourusername/Knapsack-Solver/issues/new?template=bug_report.md)
-2. **💡 Suggest Features**: [Request a feature](https://github.com/yourusername/Knapsack-Solver/issues/new?template=feature_request.md)
-3. **🔧 Submit Code**: [Create a pull request](https://github.com/yourusername/Knapsack-Solver/compare)
+1. **🐛 Report Bugs**: Create an issue with bug details
+2. **💡 Suggest Features**: Request new features
+3. **🔧 Submit Code**: Create a pull request
 
-Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and development process.
-
-## 📞 Support
-
-- 📖 [Documentation](https://github.com/yourusername/Knapsack-Solver#readme)
-- 🐛 [Issue Tracker](https://github.com/yourusername/Knapsack-Solver/issues)
-- 💬 [Discussions](https://github.com/yourusername/Knapsack-Solver/discussions)
-
-## 👥 Contributors
-
-Thanks to all contributors who have helped make this project better!
-
-<!-- Contributors list will be auto-updated -->
-<a href="https://github.com/yourusername/Knapsack-Solver/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/Knapsack-Solver" />
-</a>
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/Knapsack-Solver&type=Date)](https://star-history.com/#yourusername/Knapsack-Solver&Date)
+Please ensure your code follows the existing style and includes appropriate tests.
 
 ## 📄 License
 
@@ -327,9 +251,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **⭐ Star this repo if you find it helpful! ⭐**
-
-[Report Bug](https://github.com/yourusername/Knapsack-Solver/issues) • [Request Feature](https://github.com/yourusername/Knapsack-Solver/issues) • [Contribute](CONTRIBUTING.md)
-
-**Built with ❤️ using Python and CustomTkinter**
 
 </div>
