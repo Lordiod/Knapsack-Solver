@@ -1,5 +1,2 @@
 # Production dependencies
 customtkinter>=5.0.0
-
-# Development dependencies (optional)
-# Install with: pip install -r requirements-dev.txt
